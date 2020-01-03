@@ -39,11 +39,11 @@ function likeCallback(e) {
 // code when an "event" is fired. That's Pillar 2, event handling. Uncomment
 // this code.
 
-//for (let glyph of articleHearts) {
-  //glyph.addEventListener("click", likeCallback);
-//}
+for (let glyph of articleHearts) {
+  glyph.addEventListener("click", likeCallback);
+}
 
-// STEP 4: 
+// STEP 4:
 
 // When all the STEPs' code changes have been complete, you'll be able to see a
 // working demonstration of our reference example. Sure, it's maybe not as
